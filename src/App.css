@@ -1,0 +1,106 @@
+body {
+  background-color: #6d747d95;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.UserDetail {
+  text-align: left;
+  padding: 20px;
+  padding-bottom: 60px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.UserDetail img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.UserDetail h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.UserDetail p {
+  margin-bottom: 5px;
+}
+
+.UserDetail .bio {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.UserDetail .location {
+  color: #888;
+}
+
+.UserDetail .repositories {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.UserDetail .repo {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.resetButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.resetButton:hover {
+  background-color: #0056b3;
+}
